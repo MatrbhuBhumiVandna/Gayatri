@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #dee2e6;
+}
+
+.customer-list {
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+
+.customer-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.customer-item:hover {
+    background-color: #e9ecef;
+}
+
+.customer-item h5 {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.customer-item p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.main-content {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.measurement-form {
+    margin-top: 1rem;
+}
+
+.action-buttons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid #dee2e6;
+    width: 75%;
+    padding: 10px;
+    text-align: right;
+}
+
+.form-label {
+    font-weight: 500;
+}
